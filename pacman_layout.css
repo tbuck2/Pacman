@@ -1,0 +1,320 @@
+
+
+body.home_page{
+	background-image: url("background.jpg");
+}
+
+body.youwon_page{ 
+	background-color: yellow;
+	text-align: center;
+	font-size: 275%;
+	border: 40px solid red;
+	
+}
+
+.board {
+	float: down;
+    width: 1000px;
+    height: 600px;
+    margin: 40px auto;
+    background: #69c url(http://nojsgame.majorov.su/bg.jpg);
+	cursor: image;
+	cursor: url("gam1503.cur"), auto;
+    text-align: center;
+    position: relative;
+}
+
+h1{
+	color: yellow;
+	font-family:courier;
+}
+
+.prize{
+width:300px;
+display:block;
+margin:auto;
+}	
+
+#image{
+	postion: absolute;
+	width: 40px;
+	
+}
+
+#text{
+	z-index: 100;
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	font-weight: bold;
+	left: 150px;
+	top: 0;
+}
+
+
+img{
+	display: block;
+	 margin: auto;
+	 width:40%;
+
+}
+
+.container2{
+	display: block;
+	 margin: auto;
+	 width:40px;
+	 height: 30px;
+
+}
+
+.container1
+{
+	display: block;
+	margin: auto;
+	width: 250px;
+	height: 75px;
+	align: center;
+	
+}
+
+.container3{
+	height: 75px;
+	width: 50 px;
+	display: block;
+	margin: auto;
+	position: relative;
+}
+
+.clyde{
+  background: #ff9f00;
+  width: 50px;
+  height: 50px;
+  border-radius: 50% 50% 0% 0%;
+  animation: ghost 5s .05s infinite linear;
+  position: absolute;
+  top: 150px;
+  }
+
+ .board .clyde:hover {
+    border-radius: 0;
+    margin: 0;
+    height: 2000px;
+    width: 1000px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: #f00;
+    overflow: visible;
+    cursor: not-allowed;
+    -webkit-animation: animation1 0s 0s linear !important;
+    animation: animation1 0s 0s linear !important;    
+}
+
+.board .clyde:hover:before {
+    background: #f00;
+   	content: "***!!!GAME OVER!!!***";
+	top: 800;
+    left: 0;
+    width: 1000;
+    color: #fff;
+    text-shadow: 2px 2px 2px #aaa;
+    box-shadow: none;
+}	
+	
+.board .clyde:hover:after {
+    display: none;
+}	
+
+.ghost2{
+ background: blue;
+  width: 50px;
+  height: 50px;
+  border-radius: 50% 50% 0% 0%;
+  animation: ghost 7s .07s infinite linear;
+  position: absolute;
+  bottom: 100px;  
+}
+
+.board .ghost2:hover {
+    border-radius: 0;
+    margin: 0;
+    height: 2000px;
+    width: 1000px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: #f00;
+    overflow: visible;
+    cursor: not-allowed;
+    -webkit-animation: animation1 0s 0s linear !important;
+    animation: animation1 0s 0s linear !important;
+  }
+  
+  .board .ghost2:hover:before {
+    background: #f00;
+   	content: "***!!!GAME OVER!!!***";
+	top: 800;
+    left: 0;
+    width: 1000;
+    color: #fff;
+    text-shadow: 2px 2px 2px #aaa;
+    box-shadow: none;
+}	
+	
+.board .ghost2:hover:after {
+    display: none;
+}	
+  
+.ghost3{
+	background: red;
+  width: 50px;
+  height: 50px;
+  border-radius: 50% 50% 0% 0%;
+  animation: ghost 3s .03s infinite linear;
+  position: absolute;
+  top: 250px;
+}
+
+.board .ghost3:hover {
+    border-radius: 0;
+    margin: 0;
+    height: 2000px;
+    width: 1000px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: #f00;
+    overflow: visible;
+    cursor: not-allowed;
+    -webkit-animation: animation1 0s 0s linear !important;
+    animation: animation1 5s .05s linear !important;   
+}
+
+.board .ghost3:hover:before {
+    background: #f00;
+   	content: "***!!!GAME OVER!!!***";
+	top: 800;
+    left: 0;
+    width: 1000;
+    color: #fff;
+    text-shadow: 2px 2px 2px #aaa;
+    box-shadow: none;
+}	
+	
+.board .ghost3:hover:after {
+    display: none;
+}		
+
+.ghost4{
+	background: green;
+  width: 50px;
+  height: 50px;
+  border-radius: 50% 50% 0% 0%;
+  animation: ghost 2s .02s infinite linear;
+  position: absolute;
+  top: 200px;
+}
+
+.board .ghost4:hover {
+    border-radius: 0;
+    margin: 0;
+    height: 2000px;
+    width: 1000px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: #f00;
+    overflow: visible;
+    cursor: not-allowed;
+    -webkit-animation: animation1 0s 0s linear !important;
+    animation: animation1 0s 0s linear !important;   
+}	
+
+.board .ghost4:hover:before {
+    background: #f00;
+   	content: "***!!!GAME OVER!!!***";
+	top: 800;
+    left: 0;
+    width: 1000;
+    color: #fff;
+    text-shadow: 2px 2px 2px #aaa;
+    box-shadow: none;
+}	
+	
+.board .ghost4:hover:after {
+    display: none;
+}	
+
+.ghost5{
+	background: pink;
+  width: 50px;
+  height: 50px;
+  border-radius: 50% 50% 0% 0%;
+  animation: ghost 3s .03s infinite linear;
+  position: absolute;
+  top: 350px;
+}
+
+.board .ghost5:hover {
+    border-radius: 0;
+    margin: 0;
+    height: 2000px;
+    width: 1000px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: #f00;
+    overflow: visible;
+    cursor: not-allowed;
+	-webkit-animation: animation1 0s 0s linear !important;
+    animation: animation1 0s 0s linear !important;   
+}
+
+.board .ghost5:hover:before {
+    background: #f00;
+   	content: "***!!!GAME OVER!!!***";
+	top: 800;
+    left: 0;
+    width: 1000;
+    color: #fff;
+    text-shadow: 2px 2px 2px #aaa;
+    box-shadow: none;
+}	
+	
+.board .ghost5:hover:after {
+    display: none;
+}	
+	
+@-webkit-keyframes ghost{
+  0%{left: 10%;}
+  50%{left: 70%;}
+  100%{left: 10%;}
+}
+@-webkit-keyframes ghost{
+  0%{left: 10%;}
+  50%{left: 70%;}
+  100%{left: 10%;}
+}
+
+#winback{
+	background-color: yellow;
+}
+
+.flash {
+   animation-name: flash;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+@keyframes flash {
+    from {color: red;}
+    to {color: black;}
+}
